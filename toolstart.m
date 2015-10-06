@@ -55,7 +55,7 @@ Tdir.tide = [Tdir.data,'forcing_data/tide/'];
 Tdir.ocn = [Tdir.data,'forcing_data/ocn/'];
 
 % paths to shared code assumed to be available by many programs
-addpath([Tdir.rtools,'Z_utils']);
+% addpath([Tdir.rtools,'Z_utils']); % no longer exists
 addpath([Tdir.tools,'shared/mexcdf/mexnc']);
 addpath([Tdir.tools,'shared/mexcdf/snctools']);
 addpath([Tdir.tools,'shared/seawater']);
